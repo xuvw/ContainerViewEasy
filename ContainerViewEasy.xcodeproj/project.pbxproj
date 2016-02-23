@@ -13,6 +13,12 @@
 		ADACC8391C7C4B02009F3482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADACC8371C7C4B02009F3482 /* Main.storyboard */; };
 		ADACC83B1C7C4B02009F3482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADACC83A1C7C4B02009F3482 /* Assets.xcassets */; };
 		ADACC83E1C7C4B02009F3482 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADACC83C1C7C4B02009F3482 /* LaunchScreen.storyboard */; };
+		ADACC8481C7C4B80009F3482 /* HKTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACC8471C7C4B80009F3482 /* HKTableViewDataSource.m */; };
+		ADACC84B1C7C4B93009F3482 /* HKCollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACC84A1C7C4B93009F3482 /* HKCollectionViewDataSource.m */; };
+		ADACC84E1C7C4BA3009F3482 /* HKTableViewDD.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACC84D1C7C4BA3009F3482 /* HKTableViewDD.m */; };
+		ADACC8511C7C4BB4009F3482 /* HKCollectionViewDD.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACC8501C7C4BB4009F3482 /* HKCollectionViewDD.m */; };
+		ADACC8551C7C4D1A009F3482 /* NSObject+CVEExts.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACC8541C7C4D1A009F3482 /* NSObject+CVEExts.m */; };
+		ADACC85B1C7C4D59009F3482 /* UIView+CVEExts.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACC85A1C7C4D59009F3482 /* UIView+CVEExts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		ADACC83A1C7C4B02009F3482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADACC83D1C7C4B02009F3482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADACC83F1C7C4B02009F3482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADACC8461C7C4B80009F3482 /* HKTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKTableViewDataSource.h; sourceTree = "<group>"; };
+		ADACC8471C7C4B80009F3482 /* HKTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKTableViewDataSource.m; sourceTree = "<group>"; };
+		ADACC8491C7C4B93009F3482 /* HKCollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKCollectionViewDataSource.h; sourceTree = "<group>"; };
+		ADACC84A1C7C4B93009F3482 /* HKCollectionViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKCollectionViewDataSource.m; sourceTree = "<group>"; };
+		ADACC84C1C7C4BA3009F3482 /* HKTableViewDD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKTableViewDD.h; sourceTree = "<group>"; };
+		ADACC84D1C7C4BA3009F3482 /* HKTableViewDD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKTableViewDD.m; sourceTree = "<group>"; };
+		ADACC84F1C7C4BB4009F3482 /* HKCollectionViewDD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKCollectionViewDD.h; sourceTree = "<group>"; };
+		ADACC8501C7C4BB4009F3482 /* HKCollectionViewDD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKCollectionViewDD.m; sourceTree = "<group>"; };
+		ADACC8531C7C4D1A009F3482 /* NSObject+CVEExts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CVEExts.h"; sourceTree = "<group>"; };
+		ADACC8541C7C4D1A009F3482 /* NSObject+CVEExts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CVEExts.m"; sourceTree = "<group>"; };
+		ADACC8591C7C4D59009F3482 /* UIView+CVEExts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CVEExts.h"; sourceTree = "<group>"; };
+		ADACC85A1C7C4D59009F3482 /* UIView+CVEExts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CVEExts.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 		ADACC82D1C7C4B02009F3482 /* ContainerViewEasy */ = {
 			isa = PBXGroup;
 			children = (
+				ADACC8451C7C4B2A009F3482 /* CVE */,
 				ADACC8311C7C4B02009F3482 /* AppDelegate.h */,
 				ADACC8321C7C4B02009F3482 /* AppDelegate.m */,
 				ADACC8341C7C4B02009F3482 /* ViewController.h */,
@@ -77,6 +96,33 @@
 				ADACC82F1C7C4B02009F3482 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADACC8451C7C4B2A009F3482 /* CVE */ = {
+			isa = PBXGroup;
+			children = (
+				ADACC8521C7C4BF4009F3482 /* CVEBase */,
+				ADACC8461C7C4B80009F3482 /* HKTableViewDataSource.h */,
+				ADACC8471C7C4B80009F3482 /* HKTableViewDataSource.m */,
+				ADACC8491C7C4B93009F3482 /* HKCollectionViewDataSource.h */,
+				ADACC84A1C7C4B93009F3482 /* HKCollectionViewDataSource.m */,
+				ADACC84C1C7C4BA3009F3482 /* HKTableViewDD.h */,
+				ADACC84D1C7C4BA3009F3482 /* HKTableViewDD.m */,
+				ADACC84F1C7C4BB4009F3482 /* HKCollectionViewDD.h */,
+				ADACC8501C7C4BB4009F3482 /* HKCollectionViewDD.m */,
+			);
+			path = CVE;
+			sourceTree = "<group>";
+		};
+		ADACC8521C7C4BF4009F3482 /* CVEBase */ = {
+			isa = PBXGroup;
+			children = (
+				ADACC8531C7C4D1A009F3482 /* NSObject+CVEExts.h */,
+				ADACC8541C7C4D1A009F3482 /* NSObject+CVEExts.m */,
+				ADACC8591C7C4D59009F3482 /* UIView+CVEExts.h */,
+				ADACC85A1C7C4D59009F3482 /* UIView+CVEExts.m */,
+			);
+			path = CVEBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADACC8511C7C4BB4009F3482 /* HKCollectionViewDD.m in Sources */,
+				ADACC85B1C7C4D59009F3482 /* UIView+CVEExts.m in Sources */,
 				ADACC8361C7C4B02009F3482 /* ViewController.m in Sources */,
+				ADACC8551C7C4D1A009F3482 /* NSObject+CVEExts.m in Sources */,
 				ADACC8331C7C4B02009F3482 /* AppDelegate.m in Sources */,
 				ADACC8301C7C4B02009F3482 /* main.m in Sources */,
+				ADACC8481C7C4B80009F3482 /* HKTableViewDataSource.m in Sources */,
+				ADACC84E1C7C4BA3009F3482 /* HKTableViewDD.m in Sources */,
+				ADACC84B1C7C4B93009F3482 /* HKCollectionViewDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
